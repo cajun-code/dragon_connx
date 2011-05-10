@@ -1,21 +1,21 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  first_name: MyString
-  last_name: MyString
-  address: MyString
-  city: MyString
-  state: MyString
-  zip: MyString
-  phone: MyString
-  e_mail: MyString
+  first_name: Jack 
+  last_name: Frost
+  address: 2 SC Lane
+  city: North Pole
+  state: NP
+  zip: 00000-0000
+  phone: (555) 867-5309
+  e_mail: jfrost@hohoho.com
 
 two:
-  first_name: MyString
-  last_name: MyString
-  address: MyString
-  city: MyString
-  state: MyString
-  zip: MyString
-  phone: MyString
-  e_mail: MyString
+  first_name: Chris
+  last_name: kringle
+  address: 1 Main St. 
+  city: North Pole
+  state: NP
+  zip: 00000-0000
+  phone: (555) 555-5555
+  e_mail: sc@hohoho.com
