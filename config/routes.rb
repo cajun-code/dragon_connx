@@ -1,5 +1,7 @@
 DragonConnx::Application.routes.draw do
   
+  devise_for :users
+
   resources :contacts
 
   root :to => "home#index"
