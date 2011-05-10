@@ -19,7 +19,7 @@ class ContactTest < ActiveSupport::TestCase
   test "city cannot be blank" do
     contact = Contact.new
     assert contact.invalid?
-    assert contact.errors[:state].any?    
+    assert contact.errors[:city].any?    
   end
   test "state cannot be blank" do
     contact = Contact.new
