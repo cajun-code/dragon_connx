@@ -3,4 +3,6 @@ class Contact < ActiveRecord::Base
   validates :last_name, :presence => true
   validates :address, :city, :state, :zip, :presence => true
   validates :e_mail, :presence => true
+  
+  belongs_to :user
 end
