@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>DragonConnx</title>
-  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag "reset","text", "960", "scaffold", "application"  %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 <body>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
-
-<%= yield %>
-
+  <div class="container_16">
+    <%= yield %>
+  </div>
 </body>
 </html>

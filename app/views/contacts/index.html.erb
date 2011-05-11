@@ -1,5 +1,12 @@
-<h1>Listing contacts</h1>
-
+<div class="grid_3">
+  <h1>Contacts</h1>
+</div>
+<div class="prefix_7 grid_6">
+  Search:
+  <input type="text" id="search" />
+  <input type="submit" value="Search" />
+</div>
+<div class="clear"></div>
 <table>
   <tr>
     <th>First name</th>
@@ -25,13 +32,13 @@
     <td><%= contact.zip %></td>
     <td><%= contact.phone %></td>
     <td><%= contact.e_mail %></td>
-    <td><%= link_to 'Show', contact %></td>
-    <td><%= link_to 'Edit', edit_contact_path(contact) %></td>
-    <td><%= link_to 'Destroy', contact, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to image_tag( "vcard.png", :alt =>'Show'), contact %></td>
+    <td><%= link_to image_tag( "vcard_edit.png", :alt =>'Edit'), edit_contact_path(contact) %></td>
+    <td><%= link_to image_tag( "vcard_delete.png", :alt =>'Destroy'), contact, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Contact', new_contact_path %>
+<%= link_to image_tag( "vcard_add.png", :alt =>'New Contact'), new_contact_path %>
