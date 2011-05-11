@@ -1,0 +1,11 @@
+table {
+    padding-top: 2em;
+    padding-right: 2em;
+    width: 100%;
+    border-width: 0px;
+}
+th {
+    border-bottom-width: 2px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+}
